@@ -17,7 +17,7 @@ const Introduce = ({darkMode}) => {
           <p className="name">, I'm Luis Tovar</p>
         </div>
       </div>
-      <h1 className="introduce-title">Front-End Developer</h1>
+      <h1 className="introduce-title">Game Developer</h1>
       <a href="#aboutMe">
         <button className="button">About me</button>
       </a>

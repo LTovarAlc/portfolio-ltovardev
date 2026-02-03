@@ -4,6 +4,7 @@ import "./projects.css";
 import TapJoy from "../../assets/tapJoy.png";
 import SpeedFest from "../../assets/speedFest.png";
 import TacosElMezquital from "../../assets/tacosElMezquital.png";
+import BARSSS from "../../assets/BARSSS.png"
 
 const Projects = () => {
   return (
@@ -12,92 +13,25 @@ const Projects = () => {
       <div className="projects-container">
         <div className="project-container">
           <img
-            src={TapJoy}
+            src={BARSSS}
             alt="TapJoyProject mechanographicMiniGame mechanographic"
             className="project-img"
           />
           <div className="project-details">
-            <h3 className="project-name">TapJoy</h3>
+            <h3 className="project-name">Be Another Rank SSS (DEMO)</h3>
             <p className="project-description">
-              TapJoy is a platform developed by me, in which I seek to
-              strengthen my skills as a web application developer. Currently, it
-              only features a mini-game where the user must complete sentences
-              until they achieve 5 of them.
+                Be Another Rank SSS is a PvE RPG with a linear storyline that follows Auren, a young E-rank adventurer who begins his journey across the continent of Osmeria. Throughout his adventure, he discovers the government’s dark actions and fights to restore purity to the entire continent. This game was logically developed 100% by me, and by using assets from itch.io, I was able to bring a new fantasy world to life.
             </p>
             <div className="projects-links">
               <a
-                href="https://github.com/LTovarAlc/typingLikePro"
+                href="https://github.com/IKarasuDev/BeAnotherRankSSS"
                 target="_blank"
                 className="links-button"
               >
                 GitHub
               </a>
               <a
-                href="https://tapjoy.vercel.app/"
-                target="_blank"
-                className="links-button"
-              >
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project-container">
-          <img
-            src={SpeedFest}
-            alt="TapJoyProject mechanographicMiniGame mechanographic"
-            className="project-img"
-          />
-          <div className="project-details">
-            <h3 className="project-name">SpeedFest</h3>
-            <p className="project-description">
-              SpeedFest is a website to promote a sports car event. It features
-              a timer for a specific date and a QR code generator that allows
-              generating an entry ticket to the event. This page was developed
-              for a contest.
-            </p>
-            <div className="projects-links">
-              <a
-                href="https://github.com/LTovarAlc/SpeedFest"
-                target="_blank"
-                className="links-button"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://speedfest.vercel.app/"
-                target="_blank"
-                className="links-button"
-              >
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project-container">
-          <img
-            src={TacosElMezquital}
-            alt="TapJoyProject mechanographicMiniGame mechanographic"
-            className="project-img"
-          />
-          <div className="project-details">
-            <h3 className="project-name">Tacos "El Mezquital"</h3>
-            <p className="project-description">
-              Tacos El Mezquital is a website that I developed for a local
-              restaurant that wanted to make their business known and what they
-              offer. More sections and review functionality are expected to be
-              added in the future.
-            </p>
-            <div className="projects-links">
-              <a
-                href="https://github.com/LTovarAlc/tacoselmezquital"
-                target="_blank"
-                className="links-button"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://tacoselmezquital-ten.vercel.app/"
+                href="https://ltdeveloper.itch.io/be-another-rank-sss-demo"
                 target="_blank"
                 className="links-button"
               >

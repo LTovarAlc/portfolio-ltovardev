@@ -59,7 +59,7 @@
 }
 
 .footerDown{
-    border-top: 2px solid hsl(50, 95%, 64%);
+    border-top: 2px solid hsl(268, 95%, 64%);
     width: 90%;
     height: 30%;
     display: flex;
@@ -95,7 +95,7 @@
         height: 70px;
     }
     .footerDown{
-        border-top: 5px solid hsl(50, 95%, 64%);
+        border-top: 5px solid hsl(268, 95%, 64%);
     }
     .footerDown p, span{
         font-size: 30px
@@ -126,7 +126,7 @@
         height: 50px;
     }
     .footerDown{
-        border-top: 5px solid hsl(50, 95%, 64%);
+        border-top: 5px solid hsl(268, 95%, 64%);
     }
     .footerDown p, span{
         font-size: 30px
@@ -157,7 +157,7 @@
         height: 50px;
     }
     .footerDown{
-        border-top: 5px solid hsl(50, 95%, 64%);
+        border-top: 5px solid hsl(268, 95%, 64%);
     }
     .footerDown p, span{
         font-size: 30px
@@ -188,7 +188,7 @@
         height: 50px;
     }
     .footerDown{
-        border-top: 5px solid hsl(50, 95%, 64%);
+        border-top: 5px solid hsl(268, 95%, 64%);
     }
     .footerDown p, span{
         font-size: 18px
@@ -219,7 +219,7 @@
         height: 40px;
     }
     .footerDown{
-        border-top: 5px solid hsl(50, 95%, 64%);
+        border-top: 5px solid hsl(268, 95%, 64%);
     }
     .footerDown p, span{
         font-size: 18px

@@ -8,7 +8,7 @@
 
 .section-title {
   font-size: 40px;
-  color: hsl(50, 95%, 64%);
+  color: hsl(268, 95%, 64%);
   margin-bottom: 30px;
 }
 
@@ -30,19 +30,19 @@
 }
 
 .project-img {
-  height: auto;
-  width: 50%;
+  height: 350px;
+  width: 600px;
   border-radius: 12px;
   transition: scale 0.3s ease;
 }
 
 .project-img:hover {
-  scale: 1.1;
+  scale: 1.05;
 }
 
 .project-details {
   gap: 20px;
-  width: 48%;
+  width: 55%;
   padding: 10px 30px;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 
 .project-name {
   font-size: 34px;
-  color: hsl(50, 95%, 64%);
+  color: hsl(268, 95%, 64%);
 }
 
 .projects-links {
@@ -66,8 +66,8 @@
   padding: 5px 15px;
   font-size: 20px;
   text-decoration: none;
-  color: hsl(50, 95%, 64%);
-  border: 2px solid hsl(50, 95%, 64%);
+  color: hsl(268, 95%, 64%);
+  border: 2px solid hsl(268, 95%, 64%);
   border-radius: 34px;
   background-color: transparent;
   font-weight: 600;
@@ -85,7 +85,7 @@
   border-radius: inherit;
   scale: 0;
   z-index: -1;
-  background-color: hsl(50, 95%, 64%);
+  background-color: hsl(268, 95%, 64%);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 

@@ -57,25 +57,25 @@
 }
 
 .input-container input:focus + label {
-  color: hsl(50, 95%, 64%);
+  color: hsl(268, 95%, 64%);
   transform: scale(1.2);
   transform: translateX(0.5rem);
 }
 
 .input-container textarea:focus + label {
-    color: hsl(50, 95%, 64%);
+    color: hsl(268, 95%, 64%);
     transform: scale(1.2);
     transform: translateX(0.5rem);
   }
 
 .input-container input {
-  border: 2px hsl(50, 95%, 64%) solid;
+  border: 2px hsl(268, 95%, 64%) solid;
   padding: 8px;
   border-radius: 6px;
 }
 
 .input-container textarea {
-  border: 2px hsl(50, 95%, 64%) solid;
+  border: 2px hsl(268, 95%, 64%) solid;
   padding: 8px;
   border-radius: 6px;
 }
@@ -98,8 +98,8 @@
   position: relative;
   padding: 15px 30px;
   font-size: 18px;
-  color: hsl(50, 95%, 64%);
-  border: 2px solid hsl(50, 95%, 64%);
+  color: hsl(268, 95%, 64%);
+  border: 2px solid hsl(268, 95%, 64%);
   border-radius: 34px;
   background-color: transparent;
   font-weight: 600;
@@ -117,7 +117,7 @@
   border-radius: inherit;
   scale: 0;
   z-index: -1;
-  background-color: hsl(50, 95%, 64%);
+  background-color: hsl(268, 95%, 64%);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
