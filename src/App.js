@@ -1,6 +1,6 @@
 import './App.css'
 import Portfolio from './portfolio/portfolio';
-import Reac, {useState, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {

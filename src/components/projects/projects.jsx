@@ -1,9 +1,6 @@
 /* Seccion de Projects */
 
 import "./projects.css";
-import TapJoy from "../../assets/tapJoy.png";
-import SpeedFest from "../../assets/speedFest.png";
-import TacosElMezquital from "../../assets/tacosElMezquital.png";
 import BARSSS from "../../assets/BARSSS.png"
 
 const Projects = () => {
@@ -26,6 +23,7 @@ const Projects = () => {
               <a
                 href="https://github.com/IKarasuDev/BeAnotherRankSSS"
                 target="_blank"
+                rel="noreferrer"
                 className="links-button"
               >
                 GitHub
@@ -33,6 +31,7 @@ const Projects = () => {
               <a
                 href="https://ltdeveloper.itch.io/be-another-rank-sss-demo"
                 target="_blank"
+                rel="noreferrer"
                 className="links-button"
               >
                 Demo

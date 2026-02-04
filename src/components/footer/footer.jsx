@@ -1,7 +1,7 @@
 /* footer */
 
 import "./footer.css";
-import LinkedinIcon from "../../assets/linkedinIcon.png";
+// import LinkedinIcon from "../../assets/linkedinIcon.png";
 import XIcon from "../../assets/xIcon.png";
 import GithubIcon from '../../assets/githubIcon.png'
 import tiktokIcon from "../../assets/tik-tok.png"
@@ -20,16 +20,16 @@ const Footer = ({darkMode}) => {
         <div className="socials-footer">
           <h3>Social</h3>
           <div className="social-Icons__container">
-            <a href="https://www.tiktok.com/@lkarasu__" target="_blank">
+            <a href="https://www.tiktok.com/@lkarasu__" target="_blank" rel="noreferrer">
               <img src={tiktokIcon} alt="TikTok TiktokIcon IconTiktok Icon" className={`social-icon ${darkMode ? 'social-icon__dark' : ''}`}/>
             </a>
-            <a href="https://github.com/IKarasuDev" target="_blank">
+            <a href="https://github.com/IKarasuDev" target="_blank" rel="noreferrer">
               <img src={GithubIcon} alt="GitHhub GitHubIcon IconGitHub Icon" className={`social-icon ${darkMode ? 'social-icon__dark' : ''}`}/>
             </a>
-            <a href="https://x.com/karasu__dev" target="_blank">
+            <a href="https://x.com/karasu__dev" target="_blank" rel="noreferrer">
               <img src={XIcon} alt="XIcon X Twiiter TwitterIcon IconX" className={`social-icon ${darkMode ? 'social-icon__dark' : ''}`}/>
             </a>
-            <a href="https://ltdeveloper.itch.io/" target="_blank">
+            <a href="https://ltdeveloper.itch.io/" target="_blank" rel="noreferrer">
               <img src={itchioIcon} alt="ItchIO" className={`social-icon ${darkMode ? 'social-icon__dark' : ''}`}/>
             </a>
           </div>
